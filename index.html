@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+
+      <header class="header">
+
+        <a href="#home" class="logo">
+          Faiqah <span>Dayana</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, It's <span>Faiqah</span></h1>
+          <h3>
+            I'm a <span>Web Developer</span>
+          </h3>
+          <p>— a final-year student at ITE College East, currently pursuing a Higher Nitec in IT Applications Development. I focus on web development and UI/UX design, 
+          combining creativity with tech to build purposeful digital experiences.
+          </p>
+
+          <div class="social-icons">
+            <a href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="#">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            
+            <a href="#">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="#">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+
+          <div class="btn-group">
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+
+        </div>
+
+        <div class="home-img">
+          <img src="c:\Users\USER\Documents\image.jpg" alt="temp">
+        </div>
+      </section>
+
+      <section class="about" id="about">
+
+        <div class="about-img">
+          <img src="c:\Users\USER\Documents\image.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>Hi! I'm Faiqah, a final-year IT Applications Development student at ITE College East with a focus on web development and UI/UX design. I'm skilled in HTML, CSS, JavaScript, and design tools like Adobe XD, Photoshop, and Illustrator.
+            I've developed mobile app projects that solve everyday problems and completed a year-long internship at Singapore Land Authority, where I worked on geospatial data, QGIS, and represented the agency at key events.
+            In 2023, I took part in an overseas exchange programme to Denmark, earning a Python certificate and gaining global insight. I'm passionate about creating digital experiences that blend tech and creativity, and I also enjoy drawing as a hobby.</p>
+          <a href="about-more.html" class="btn">Read More</a>
+        </div>
+
+      </section>
+
+     
+      <section class="projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+          <div class="project-card">
+            <img src="c:\Users\USER\Documents\project1.png" alt="">
+
+            <h3>Project 1</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="btn">Review Project</div>
+          </div>
+
+          <div class="project-card">
+            <img src="c:\Users\USER\Documents\project2.png" alt="">
+
+            <h3>Project 2</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="btn">Review Project</div>
+          </div>
+
+          <div class="project-card">
+            <img src="project3.png" alt="">
+
+            <h3>Project 3</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+              laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="btn">Review Project</div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xzzggnwn" method="POST">
+
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" name="full_name"
+              placeholder="Full Name" required>
+              <input type="email" name="email"
+              placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+              <input type="number" name="phone_number"
+              placeholder="Phone Number">
+              <input type="text"
+              placeholder="Subject" required>
+            </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea name="" id=""
+            placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message"
+            class="btn">
+          </div>
+
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="#">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            
+            <a href="#">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="#">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+
+          <ul class="list">
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#services">Services</a>
+            </li>
+
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            © Faiqah Dayana | All Rights Reserved
+          </p>
+
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
